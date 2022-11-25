@@ -1,0 +1,388 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <style>body
+{
+margin: 1rem;
+font-size: 14.5px;
+line-height: 25.5px;
+font-family: poppins;
+font-weight: 500;
+padding: 10px;
+row-gap: 1rem;
+}
+
+.text-small {
+font-size: 14px;
+line-height: 25.5px;
+font-family: poppins;
+font-weight: 500;
+}
+
+.text-light-small {
+font-size: 14px;
+line-height: 25.5px;
+font-family: poppins;
+font-weight: 400;
+color: #828282;
+}
+
+.grey-text-small {
+font-size: 14px;
+line-height: 25.5px;
+font-family: poppins;
+font-weight: 500;
+color: #828282;
+}
+
+.text-medium {
+font-size: 15px;
+line-height: 25.5px;
+font-family: poppins;
+font-weight: 500;
+}
+
+.text-center{
+text-align:center;
+}
+
+.text-light-medium {
+font-size: 15px;
+line-height: 25.5px;
+font-family: poppins;
+font-weight: 400;
+color: #828282;
+}
+
+.grey-text-medium {
+font-size: 15px;
+line-height: 25.5px;
+font-family: poppins;
+font-weight: 500;
+color: #828282;
+}
+
+.text-large{
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 30px;
+}
+
+.text-light-large {
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 30px;
+color: #828282;
+}
+
+.grey-text-large {
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 30px;
+color: #828282;
+}
+
+.text {
+font-size: 15px;
+line-height: 25.5px;
+font-family: poppins;
+font-weight: 500;
+}
+
+.address{
+margin-top: 12rem;
+width: 50%;
+}
+
+.heading {
+font-family: poppins;
+text-align: center;
+border-top: 1px solid #cecaca;
+border-bottom: 1px solid #cecaca;
+padding: 3px;
+}
+
+.flex {
+display: flex;
+justify-content: space-between;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.center{
+justify-content:center;
+}
+
+#outer-table {
+width: 100%;
+padding-top: 3em;
+}
+
+th {
+background-color: rgba(234, 234, 234, 0.81);
+border-radius: 3px;
+padding: 0.25em;
+}
+
+td {
+background-color: rgba(247, 247, 247, 0.71);
+border-radius: 3px;
+padding: 0.25em;
+text-align: center;
+}
+
+.bold {
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 26px;
+}
+
+.bolder {
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 26px;
+}
+
+.card {
+border: 1px solid black;
+border-radius: 5px;
+}
+
+.flexcol {
+display: flex;
+flex-direction: column;
+row-gap: 2em;
+}
+
+.align-right {
+align-items: flex-end;
+}
+
+.padding {
+padding: 7px;
+}
+
+.black-bg {
+background-color: black;
+color: white;
+}
+
+.declaration {
+margin-top: 9rem;
+background-color: #f1f1f1;
+padding: 20px 1em;
+border-radius: 3px;
+}
+
+.rem {
+border: 1px solid black;
+padding: auto;
+border-radius: 5px;
+font-size: 12px;
+}
+
+.align-center {
+align-items: center;
+}
+
+.table{
+background-color: #f1f1f1;
+padding: 20px 1em;
+border-radius: 3px;
+border-collapse: collapse;
+}
+
+.new1{
+margin-top:20rem;
+border-top: 1px #cecaca;
+padding: 0.5px;
+}
+
+.flex-col{
+display: flex;
+flex-direction: column;
+}
+
+.sno{
+width: 6px;
+}
+
+.gst{
+margin-top: 3.5rem;
+}
+
+.child, table, th, td {
+width: 100%;
+font-size: 14px;
+border-top: 1px solid #cecaca;
+border:2px solid white;
+border-collapse: collapse;
+word-break: break-all;
+background-color: #f1f1f1;
+margin-bottom: 1rem;
+border-radius: 10px;
+}</style>
+    <title>Invoice</title>
+</head>
+<body>
+
+<div class="flex-col text-center">
+    <h2>Zolostays</h2>
+    <span class="text-small">2134</span>
+    <div>
+        <span class="text-light-small">GSTIN:</span>
+        <span class="text-small">2134</span>
+    </div>
+</div>
+<div class="head-div">
+    <h2 class="heading">TAX INVOICE<!--invoiceType--></h2>
+</div>
+<div>
+    <div class="float-left">
+        <div>
+            <span class="grey-text-large">Invoice Number : </span>
+            <span class="text-large">2134</span>
+        </div>
+        <div>
+            <span class="b grey-text-large">State : </span>
+            <span class="text">Karnataka</span>
+        </div>
+        <div>
+            <span class="grey-text-large">Place of supply</span>
+            <span class="text-large">Karnataka</span>
+        </div>
+        <div>
+            <span class="grey-text-large" >Bill to party</span>
+        </div>
+        <div>
+            <span class="grey-text-large">Customer Name :</span>
+            <span class="text-large">2134</span>
+        </div>
+    </div>
+    <div class="address">
+        <span class="grey-text-large">Billing Address : </span>
+        <span class="text-large">No. 1190, 22nd Cross, HSR Layout, Sector 3, Bangalore - 560102</span>
+    </div>
+    <div class="float-left">
+        <div>
+            <span class="grey-text-large">State :</span>
+            <span class="text-large">Karnataka</span>
+        </div>
+        <div>
+            <span class="grey-text-large">Reverse Charge :</span>
+            <span class="text-large">Yes</span>
+        </div>
+    </div>
+    <div class="float-right">
+        <div>
+            <span class="grey-text-large">Invoice Date : </span>
+            <span class="text-large">14/03/2022</span>
+        </div>
+        <div>
+            <span class="grey-text-large">Code : </span>
+            <span class="text-large">29</span>
+        </div>
+        <div class="gst">
+            <span class="grey-text-large" >GSTIN/UIN :</span>
+            <span class="text-large">2134</span>
+        </div>
+        <div>
+            <span class="grey-text-large">Code :</span>
+            <span class="text-large">19</span>
+        </div>
+    </div>
+</div>
+
+<hr class="new1"></hr>
+
+<table class="child" style="width: 100%">
+            <tr>
+          <th rowspan="2" class="sno">S. No.</th>
+          <th rowspan="2">Service Description</th>
+          <th rowspan="2">SAC Code</th>
+          <th rowspan="2">Qty</th>
+          <th rowspan="2">Taxable Value</th>
+          <th colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CGST</th>
+          <th colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SGST</th>
+          <th rowspan="2">Total</th>
+        </tr>
+        <tr>
+          <th scope="col">Rate</th>
+          <th scope="col">Amount</th>
+          <th scope="col">Rate</th>
+          <th scope="col">Amount</th>
+        </tr>        <tr>
+          <td class="sno">1</td>
+          <td>Service Description</td>
+          <td>23424</td>
+          <td>12</td>
+          <td>2345235235</td>
+          <td>352352</td>
+          <td>@#5423523</td>
+          <td>Q#@523</td>
+          <td>#5235</td>
+          <td>23142352</td>
+        </tr>        <tr>
+          <td colspan="3" class="bold">Total</td>
+          <td>2134</td>
+          <td>2134</td>
+          <td colspan="2">2134</td>
+          <td colspan="2">2134</td>
+          <td class="bolder">2134</td>
+        </tr>
+</table>
+
+<div class="flex">
+    <div class="flex-col float-left">
+        <div>
+            <span class="text-light-small">Total Payment Amount In Words :</span><br />
+            <span class="text-large">2134</span>
+        </div>
+    </div>
+    <div class="card flex-col float-right">
+        <div class="flex" style="font-weight: normal">
+            <span class="text-large padding">Total Amt. Before Tax :</span>
+            <span class="text-large padding">2134</span>
+        </div>
+        <div class="flex">
+            <span class="text-large padding">Tax Amt. :</span>
+            <span class="text-large padding">2134</span>
+        </div>
+        <div class="flex black-bg">
+            <span class="text-large padding">Total Amount After Tax :</span>
+            <span class="text-large padding">Rs. 2134</span>
+        </div>
+    </div>
+</div>
+
+<div class="declaration">
+    <span class="text-small" style="font-size: 14px;">Declaration :</span><br />
+    <span class="grey-text" style="font-size: 13px;"
+    >1. We declare that this tax invoice shows the actual price of the supplies made and that all particulars are true
+        and correct.</span
+    ><br />
+    <span class="grey-text" style="font-size: 13px;">
+                2. This is Subject to Karnataka Jurisdiction.
+            </span>
+</div>
+<div class="text-center">
+<span class="text-small" style="font-size: 15px;">This is Computer Generated Tax Invoice and does not require Seal and Signature.</span>
+</div>
+</body>
+</html>

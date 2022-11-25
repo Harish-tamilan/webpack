@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <style>body {
+margin-left: 1em;
+margin-top: auto;
+font-size: 14.5px;
+line-height: 25.5px;
+font-family: poppins;
+font-weight: 500;
+}
+
+.container {
+margin-left: 0.5em;
+margin-top: auto;
+margin-right: 0.5em;
+}
+
+#logo {
+width: 200px;
+height: 40px;
+margin-left: 0.5em;
+}
+
+.text-small {
+font-size: 14px;
+line-height: 25.5px;
+font-family: poppins;
+font-weight: 500;
+}
+
+.text-light-small {
+font-size: 14px;
+line-height: 25.5px;
+font-family: poppins;
+font-weight: 400;
+color: #828282;
+}
+
+.grey-text-small {
+font-size: 14px;
+line-height: 25.5px;
+font-family: poppins;
+font-weight: 500;
+color: #828282;
+}
+
+.text-medium {
+font-size: 15px;
+line-height: 25.5px;
+font-family: poppins;
+font-weight: 500;
+}
+
+.text-light-medium {
+font-size: 15px;
+line-height: 25.5px;
+font-family: poppins;
+font-weight: 400;
+color: #828282;
+}
+
+.grey-text-medium {
+font-size: 15px;
+line-height: 25.5px;
+font-family: poppins;
+font-weight: 500;
+color: #828282;
+}
+
+.text-large{
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 30px;
+}
+
+.text-light-large {
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 30px;
+color: #828282;
+}
+
+.grey-text-large {
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 30px;
+color: #828282;
+}
+
+.text {
+font-size: 15px;
+line-height: 25.5px;
+font-family: poppins;
+font-weight: 500;
+}
+
+.heading {
+font-family: poppins;
+text-align: center;
+border-top: 1px solid #cecaca;
+border-bottom: 1px solid #cecaca;
+padding: 3px;
+}
+
+.grid {
+display: grid;
+grid-template-columns: 30% 30% 30%;
+justify-content: space-between;
+column-gap: 13em;
+row-gap: 1em;
+}
+
+.flex {
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+}
+
+.container-1{
+background-color:blue;
+height: auto;
+display:flex;
+flex-grow:1;
+}
+
+#outer-table {
+width: 100%;
+padding-top: 3em;
+}
+
+th {
+background-color: rgba(234, 234, 234, 0.81);
+border-radius: 3px;
+padding: 0.25em;
+}
+
+td {
+background-color: rgba(247, 247, 247, 0.71);
+border-radius: 3px;
+padding: 0.25em;
+text-align: center;
+}
+
+.bold {
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 26px;
+}
+
+.bolder {
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 26px;
+}
+
+.card {
+border: 1px solid black;
+border-radius: 5px;
+}
+
+.flexcol {
+display: flex;
+flex-direction: column;
+row-gap: 2em;
+}
+
+.align-right {
+align-items: flex-end;
+}
+
+.padding {
+padding: 7px;
+}
+
+.black-bg {
+background-color: black;
+color: white;
+}
+
+.declaration {
+background-color: #f1f1f1;
+padding: 20px 1em;
+border-radius: 3px;
+}
+
+.rem {
+border: 1px solid black;
+padding: auto;
+border-radius: 5px;
+font-size: 12px;
+}
+
+.flex-container {
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+background-color: White;
+flex-wrap: nowrap;
+}
+
+.flex-container > div {
+background-color: white;
+margin: 4px;
+padding: 5px;
+font-size: 10px;
+}
+
+.table{
+background-color: #f1f1f1;
+padding: 20px 1em;
+border-radius: 3px;
+border-collapse: collapse;
+
+}
+
+.style{
+margin-left: 0.5em;
+margin-top: 0.7em;
+margin-right: 0.5em;
+background-color: #f1f1f1;
+width: 100%;
+}
+
+.new1{
+border-top: 1px #cecaca;
+padding: 0.5px;
+}
+
+.child, table, th, td {
+border-top: 1px solid #cecaca;
+border:2px solid white;
+border-collapse: collapse;
+word-break: break-all;
+background-color: #f1f1f1;
+margin-left: 0.5em;
+margin-right: 2em;
+border-radius: 10px;
+}
+</style>
+    <title>Invoice</title>
+</head>
+<body>
+
+<img src="classpath:templates/myXP.png" alt="myXp.ai" id="logo" style="height: 60px;margin-right: 100px"/><br />
+<div class="container">
+    <span class="text-small">2134</span>
+</div>
+<div class="container">
+    <span class="text-light-small">GSTIN:</span>
+    <span class="text-small">2134</span>
+</div>
+<div class="head-div container">
+    <h2 class="heading">TAX INVOICE<!--invoiceType--></h2>
+</div>
+<div class="grid container">
+    <div class="b">
+        <div>
+            <span class="grey-text-large">Invoice Number : </span>
+            <span class="text-large">2134</span>
+            <span class="b grey-text-large" style="margin-left:120px">State : </span>
+            <span class="text">Karnataka</span>
+            <span class="grey-text-large" style="margin-left:120px">Code : </span>
+            <span class="text-large">29</span>
+        </div>
+    </div>
+    <div>
+        <span class="grey-text-large">Billing Date : </span>
+        <span class="text-large">14/03/2022</span>
+        <span class="grey-text-large" style="margin-left:160px">Place of Service : </span>
+        <span class="text-large">2134</span>
+    </div>
+</div>
+<div class="container">
+    <span class="grey-text-large">Bill To Party: </span>
+</div>
+<div class="flex-container" style="flex-direction: column" display="flex">
+    <div class="container" style="width:30%;display:inline;float:right">
+        <span class="grey-text-large" style="margin-left:80px">GST No. :</span>
+        <span class="text-large">2134</span>
+        <span class="grey-text-large" style="margin-left:80px">Code :</span>
+        <span class="text-large">2134</span>
+    </div>
+    <div class="container" style="width: 70%">
+        <span class="grey-text-large">Customer Name :</span>
+        <span class="text-large" style="width:60%;display: inline-table">2134</span><br></br>
+        <span class="grey-text-large">Billing Address :</span>
+        <span class="text-large" style="width:60%;display: inline-table">2134</span>
+    </div>
+</div>
+
+<hr class="new1"></hr>
+
+<table class="child" style="width: 100%">
+            <tr>
+          <th rowspan="2">S. No.</th>
+          <th rowspan="2">Service Description</th>
+          <th rowspan="2">SAC Code</th>
+          <th rowspan="2">Qty</th>
+          <th rowspan="2">Taxable Value</th>
+          <th colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CGST</th>
+          <th colspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SGST</th>
+          <th rowspan="2">Total</th>
+        </tr>
+        <tr>
+          <th scope="col">Rate</th>
+          <th scope="col">Amount</th>
+          <th scope="col">Rate</th>
+          <th scope="col">Amount</th>
+        </tr>        <tr>
+          <td>1</td>
+          <td>Service Description</td>
+          <td>23424</td>
+          <td>12</td>
+          <td>2345235235</td>
+          <td>352352</td>
+          <td>@#5423523</td>
+          <td>Q#@523</td>
+          <td>#5235</td>
+          <td>23142352</td>
+        </tr>        <tr>
+          <td colspan="3" class="bold">Total</td>
+          <td>2134</td>
+          <td>2134</td>
+          <td colspan="2">2134</td>
+          <td colspan="2">2134</td>
+          <td class="bolder">2134</td>
+        </tr>
+</table>
+
+
+
+<div> <!--style="display:flex;flex-direction: column"-->
+    <div >
+        <div>
+            <div>
+                <div class="card container flexcol" style="width: 50%;display:inline;float:right">
+                    <div class="flex" style="font-weight: normal">
+                        <span class="text-large padding">Total Amt. Before Tax :</span>
+                        <span class="text-large padding" style="margin-left:30px">2134</span>
+                    </div>
+                    <div class="flex">
+                        <span class="text-large padding">Tax Amt. :</span>
+                        <span class="text-large padding" style="margin-left:120px">2134</span>
+                    </div>
+                    <div class="flex black-bg">
+                        <span class="text-large padding">Total Amount After Tax :</span>
+                        <span class="text-large padding" style="margin-left:20px">Rs. 2134</span>
+                    </div>
+                </div>
+                <div class="container" style="width: 50%">
+                    <span class="text-light-small">Tax Amount In Words : </span><br />
+                    <span class="text-large"
+                    >INR 2134</span>
+                </div>
+
+                <div class="container" style="width: 50%">
+                    <span class="text-light-small">Total Payment Amount In Words :</span><br />
+                    <span class="text-large">2134</span>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="container declaration">
+    <span class="text-small" style="font-size: 16px;">Declaration :</span><br />
+    <span class="grey-text" style="font-size: 15px;"
+    >1. We declare that this tax invoice shows the actual price of the supplies made and that all particulars are true
+and correct.</span
+    ><br />
+    <span class="grey-text" style="font-size: 15px;">
+        2. This is Subject to Karnataka Jurisdiction.
+      </span>
+</div>
+<div class="flexcol align-right container">
+    <div>
+        <span class="text-large" style="margin-left:370px"
+        >For Zolostays Property Solutions Pvt. Ltd.</span
+        >
+    </div>
+    <div>
+        <span class="text-large" style="font-weight: normal; margin-left: 370px;page-break-after: auto;page-break-inside: auto">Authorized Signatory</span>
+    </div>
+</div>
+<div class="flex-container rem">
+    <span>Remarks :</span>
+</div>
+<div class='container' style="text-align: center;">
+    <span class="text-small" style="font-size: 15px;">This is Computer Generated Tax Invoice. Hence, no Seal and Signature Are Required.</span>
+</div>
+</body>
+</html>

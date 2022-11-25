@@ -1,0 +1,263 @@
+body {
+    margin-left: 1em;
+    margin-top: auto;
+    font-size: 14.5px;
+    line-height: 25.5px;
+    font-family: poppins;
+    font-weight: 500;
+    }
+    
+    .container {
+    margin-left: 0.5em;
+    margin-top: auto;
+    margin-right: 0.5em;
+    }
+    
+    #logo {
+    width: 200px;
+    height: 40px;
+    margin-left: 0.5em;
+    }
+    
+    .text-small {
+    font-size: 14px;
+    line-height: 25.5px;
+    font-family: poppins;
+    font-weight: 500;
+    }
+    
+    .text-light-small {
+    font-size: 14px;
+    line-height: 25.5px;
+    font-family: poppins;
+    font-weight: 400;
+    color: #828282;
+    }
+    
+    .grey-text-small {
+    font-size: 14px;
+    line-height: 25.5px;
+    font-family: poppins;
+    font-weight: 500;
+    color: #828282;
+    }
+    
+    .text-medium {
+    font-size: 15px;
+    line-height: 25.5px;
+    font-family: poppins;
+    font-weight: 500;
+    }
+    
+    .text-light-medium {
+    font-size: 15px;
+    line-height: 25.5px;
+    font-family: poppins;
+    font-weight: 400;
+    color: #828282;
+    }
+    
+    .grey-text-medium {
+    font-size: 15px;
+    line-height: 25.5px;
+    font-family: poppins;
+    font-weight: 500;
+    color: #828282;
+    }
+    
+    .text-large{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+    }
+    
+    .text-light-large {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 30px;
+    color: #828282;
+    }
+    
+    .grey-text-large {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 30px;
+    color: #828282;
+    }
+    
+    .text {
+    font-size: 15px;
+    line-height: 25.5px;
+    font-family: poppins;
+    font-weight: 500;
+    }
+    
+    .heading {
+    font-family: poppins;
+    text-align: center;
+    border-top: 1px solid #cecaca;
+    border-bottom: 1px solid #cecaca;
+    padding: 3px;
+    }
+    
+    .grid {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+    column-gap: 13em;
+    row-gap: 1em;
+    }
+    
+    .flex {
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .center{
+    justify-content:center;
+    }
+    
+    .container-1{
+    background-color:blue;
+    height: auto;
+    display:flex;
+    flex-grow:1;
+    }
+    
+    #outer-table {
+    width: 100%;
+    padding-top: 3em;
+    }
+    
+    th {
+    background-color: rgba(234, 234, 234, 0.81);
+    border-radius: 3px;
+    padding: 0.25em;
+    }
+    
+    td {
+    background-color: rgba(247, 247, 247, 0.71);
+    border-radius: 3px;
+    padding: 0.25em;
+    text-align: center;
+    }
+    
+    .bold {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 26px;
+    }
+    
+    .bolder {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 26px;
+    }
+    
+    .card {
+    border: 1px solid black;
+    border-radius: 5px;
+    }
+    
+    .flexcol {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+    }
+    
+    .align-right {
+    align-items: flex-end;
+    }
+    
+    .padding {
+    padding: 7px;
+    }
+    
+    .black-bg {
+    background-color: black;
+    color: white;
+    }
+    
+    .declaration {
+    background-color: #f1f1f1;
+    padding: 20px 1em;
+    border-radius: 3px;
+    }
+    
+    .rem {
+    border: 1px solid black;
+    padding: auto;
+    border-radius: 5px;
+    font-size: 12px;
+    }
+    
+    .flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: White;
+    flex-wrap: nowrap;
+    }
+    
+    .flex-container > div {
+    background-color: white;
+    margin: 4px;
+    padding: 5px;
+    font-size: 10px;
+    }
+    
+    .table{
+    background-color: #f1f1f1;
+    padding: 20px 1em;
+    border-radius: 3px;
+    border-collapse: collapse;
+    
+    }
+    
+    .style{
+    margin-left: 0.5em;
+    margin-top: 0.7em;
+    margin-right: 0.5em;
+    background-color: #f1f1f1;
+    width: 100%;
+    }
+    
+    .gst{
+    max-width:50%;
+    }
+
+    .gst2{
+        position:absolute;  
+        bottom: 30%;
+        left: 60%;
+    }
+    
+    .new1{
+    margin-top: 4rem;
+    border-top: 1px #cecaca;
+    padding: 0.5px;
+    }
+    
+    .child, table, th, td {
+    border-top: 1px solid #cecaca;
+    border:2px solid white;
+    border-collapse: collapse;
+    word-break: break-all;
+    background-color: #f1f1f1;
+    margin-left: 0.5em;
+    margin-right: 2em;
+    border-radius: 10px;
+    }
+    
+    
+    
